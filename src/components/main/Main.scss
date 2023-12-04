@@ -30,11 +30,11 @@ main {
         h2 {
           position: absolute;
           top: 0;
-          left: 0;
+          right: 0;
           padding: 1rem;
           font-size: 2rem;
           color: #cd890c;
-          background-color: rgba(0, 0, 0, 0.9);
+          background-color: rgba(0, 0, 0, 0.562);
           border-radius: 20px;
           font-weight: 500;
         }
@@ -47,7 +47,7 @@ main {
           padding: 1rem;
           color: #cd890c;
           background-color: rgba(0, 0, 0, 0.8);
-          font-size: 0.7rem;
+          font-size: 0.9rem;
           border-radius: 1rem;
           font-weight: 500;
         }
