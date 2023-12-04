@@ -1,0 +1,44 @@
+.header {
+  text-align: center;
+  h1 {
+    display: inline-block;
+    margin-top: 12rem;
+    font-size: 3rem;
+    font-weight: 100;
+    text-shadow: 4px 5px 10px #cd890c;
+    text-decoration: underline;
+    letter-spacing: 7px;
+    cursor: pointer;
+    animation: title 1.5s infinite;
+    &:hover {
+      color: #cd890c;
+    }
+  }
+}
+
+@keyframes title {
+  0% {
+    position: 0.1;
+  }
+  50% {
+    opacity: 0.6;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+
+@media screen and (max-width: 1024px) {
+    .header h1 {
+      padding-top: 7rem;
+    }
+  }
+  
+  @media screen and (max-width: 576px) {
+    .header h1 {
+      padding-top: 2rem;
+      font-size: 1.7rem !important;
+    }
+  }
+ 
